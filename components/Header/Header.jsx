@@ -1,6 +1,8 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Dialog } from '@headlessui/react'
 
 const Header = () => {
   return (
@@ -46,8 +48,6 @@ const Header = () => {
     </nav>
 </header>
    
-    
-
   )
 }
 
